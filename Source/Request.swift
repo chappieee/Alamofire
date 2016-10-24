@@ -579,6 +579,7 @@ open class UploadRequest: DataRequest {
 
 #if !os(watchOS)
 
+/*
 /// Specific type of `Request` that manages an underlying `URLSessionStreamTask`.
 open class StreamRequest: Request {
     enum Streamable: TaskConvertible {
@@ -599,5 +600,6 @@ open class StreamRequest: Request {
         }
     }
 }
+*/
 
 #endif

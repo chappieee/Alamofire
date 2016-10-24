@@ -703,6 +703,7 @@ open class SessionManager {
 
 #if !os(watchOS)
 
+/*
     // MARK: - Stream Request
 
     // MARK: Hostname and Port
@@ -756,6 +757,7 @@ open class SessionManager {
         if startRequestsImmediately { stream.resume() }
         return stream
     }
+*/
 
 #endif
 
